@@ -29,9 +29,9 @@ function listen(animals) {
         if (animal instanceof Cat) {
             sounds.push(animal.say());
         } else if (animal instanceof Dog) {
-            sounds.push(animal.talk());
+            sounds.push(animal.say());
         } else if (animal instanceof Bird) {
-            sounds.push(animal.sing());
+            sounds.push(animal.say());
         }
     });
     return sounds;
