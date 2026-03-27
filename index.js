@@ -5,13 +5,13 @@ class Cat {
 }
 
 class Dog {
-    talk() {
+    say() {
         return 'woof';
     }
 }
 
 class Bird {
-    sing() {
+    say() {
         return 'chirp';
     }
 }
